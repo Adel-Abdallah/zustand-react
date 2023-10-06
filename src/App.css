@@ -1,0 +1,31 @@
+.App{
+  background: var(--COLOR-GRAY);
+  min-height:100vh ;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: auto;
+}
+
+/* Add this to your CSS */
+
+@media only screen and (max-width: 810px) {
+  .App {
+      overflow-x: auto;
+      width: auto;
+      justify-content: inherit;
+  }
+
+  .column {
+      display: inline-block;
+      vertical-align: top;
+      white-space: normal;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      min-width:300px;
+  }
+
+  .SelectOptions{
+    display: block !important;
+   }
+}
